@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import Timer from './components/timer';
+// import Timer from './components/timer';
+import Timer from './components/Timer.class'
 import Welcome from './components/Welcome';
 import './App.css';
 
@@ -19,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-        <Timer />
+        <Timer instance="base" time={new Date().toLocaleDateString()}/>
         <Welcome name="A" />
         <Welcome name="B" />
         <Welcome name="C" />
