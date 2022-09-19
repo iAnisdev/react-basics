@@ -2,6 +2,8 @@ import logo from './logo.svg';
 // import Timer from './components/timer';
 import Timer from './components/Timer.class'
 import Welcome from './components/Welcome';
+// import Event from './components/Event';
+import Toggle from './components/Toggle';
 import './App.css';
 
 function App() {
@@ -22,8 +24,10 @@ function App() {
         </a>
         <Timer instance="base" />
         <Welcome name="A" />
-        <Welcome name="B" />
-        <Welcome name="C" />
+        {/* <Welcome name="B" />
+        <Welcome name="C" /> */}
+        {/* <Event /> */}
+        <Toggle />
       </header>
     </div>
   );
