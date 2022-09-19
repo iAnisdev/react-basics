@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import Timer from './components/timer';
+import Welcome from './components/Welcome';
 import './App.css';
 
 function App() {
@@ -19,6 +20,9 @@ function App() {
           Learn React
         </a>
         <Timer />
+        <Welcome name="A" />
+        <Welcome name="B" />
+        <Welcome name="C" />
       </header>
     </div>
   );
