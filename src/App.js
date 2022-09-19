@@ -20,7 +20,7 @@ function App() {
         >
           Learn React
         </a>
-        <Timer instance="base" time={new Date().toLocaleDateString()}/>
+        <Timer instance="base" />
         <Welcome name="A" />
         <Welcome name="B" />
         <Welcome name="C" />
