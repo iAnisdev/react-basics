@@ -10,7 +10,6 @@ class PreventRenderingMain extends Component {
 
     render () {
         let shouldRender = this.state.shouldRender
-        console.log(shouldRender)
         if(!shouldRender){
             return null
         }else{

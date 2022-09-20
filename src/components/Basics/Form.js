@@ -18,7 +18,6 @@ class BasicForm extends Component {
 
     handleChange(e) {
         let name = e.target.name
-        console.log(name)
         this.setState((state) => {
             return {
                 userInfo: {
