@@ -1,0 +1,48 @@
+.top{
+    display: table;
+    text-align: center;
+    background-color: red;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+}
+
+.top > :first-child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.bottom{
+    display: table;
+    text-align: center;
+    background-color: red;
+    color: white;
+    height: 10vh;
+    width: 100vw;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 80vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.bottom > :first-child {
+    display: table-cell;
+    vertical-align: middle;
+}
+.left , .right{
+    height: 100%;
+    width: 25vw;
+    background-color: green;
+}
+
+.main{
+    height: 100%;
+    width: 50vw;
+    background-color: yellow;
+}

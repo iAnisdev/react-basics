@@ -1,11 +1,10 @@
 import './App.css';
-import StateupMain from './components/Stateup/Main';
+import Parent from './components/Childrens/Parent';
 
 function App() {
   return (
     <div className="App">
-      <p>HOME PAGE</p>
-      <StateupMain />
+      <Parent />
     </div>
   );
 }
