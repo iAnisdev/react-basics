@@ -1,0 +1,36 @@
+.Component {
+    padding: 5vw 2vh;
+}
+
+.Heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 3vh;
+    background-color: blanchedalmond;
+    padding: 1vh 2vw;
+    margin-bottom: 2vh;
+    border-radius: 15px;
+}
+.heading-box , .search-box{
+    display: table;
+    text-align: center;
+}
+
+.heading-box > :first-child  , .search-box > :first-child {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: left;
+    padding: 2px;
+}

@@ -1,10 +1,10 @@
 import './App.css';
-import Parent from './components/Childrens/Parent';
+import DataTable from './components/Datatable/Component';
 
 function App() {
   return (
     <div className="App">
-      <Parent />
+      <DataTable />
     </div>
   );
 }
