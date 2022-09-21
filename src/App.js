@@ -1,21 +1,15 @@
 import React from 'react';
 import './App.css';
-import LoadMain from './components/Load/Main';
-
-import { ThemeContext } from './Contexts/ThemeContext';
+import { ErrorBoundaryMain } from './components/ErrorBoundary/Main';
 
 class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <ThemeContext.Provider value="dark">
-          <LoadMain />
-        </ThemeContext.Provider>
+        <ErrorBoundaryMain />
       </div>
     );
   }
 }
-
-App.contextType = ThemeContext
 
 export default App;
