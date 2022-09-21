@@ -1,12 +1,21 @@
+import React from 'react';
 import './App.css';
-import DataTable from './components/Datatable/Component';
+import LoadMain from './components/Load/Main';
 
-function App() {
-  return (
-    <div className="App">
-      <DataTable />
-    </div>
-  );
+import { ThemeContext } from './Contexts/ThemeContext';
+
+class App extends React.Component {
+  render() {
+    return (
+      <div className="App">
+        <ThemeContext.Provider value="dark">
+          <LoadMain />
+        </ThemeContext.Provider>
+      </div>
+    );
+  }
 }
+
+App.contextType = ThemeContext
 
 export default App;
