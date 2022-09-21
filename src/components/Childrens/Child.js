@@ -1,11 +1,11 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import './Child.css'
 export default class Child extends Component {
 
     render(){
         return (
             <div>
-                <div className="top">{this.props.top}</div>
+                {React.createElement('div', {className: 'top'} , this.props.top)}
                 <div className="content">
                 <div className="left">{this.props.left}</div>
                 <div className="main">{this.props.children}</div>
